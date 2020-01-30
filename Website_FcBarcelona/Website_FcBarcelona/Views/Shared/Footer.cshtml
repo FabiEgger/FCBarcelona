@@ -1,4 +1,5 @@
 ﻿<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+<button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Register</button>
 
 <div id="id01" class="modal">
 
@@ -18,6 +19,35 @@
             <button type="submit">Login</button>
         </div>
     </form>
+</div>
+
+
+<div id="id02" class="modal">
+    <form action="/action_page.php">
+        <div class="container">
+            <h1 class="header">Register</h1>
+            
+            <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <hr>
+
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <label for="psw-repeat"><b>Repeat Password</b></label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+            <hr>
+
+            <button type="submit" class="registerbtn">Register</button>
+        </div>
+
+        <div class="container signin">
+            <p>Already have an account? <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign in</button> </p>
+        </div>
+    </form>
+
 </div>
 
 

@@ -12,9 +12,14 @@
 
     <div id="container">
         <header>
-        <nav>
-            @Html.Partial("Navigation")
-        </nav>
+            <div class="navContainer">
+                <nav>
+                    <div class="img">
+                        <img src="~/Content/Images/Logo.jpg" width="288" />
+                    </div>
+                    @Html.Partial("Navigation")
+                </nav>
+            </div>
         </header>
         <main>
             <content>

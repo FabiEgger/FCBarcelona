@@ -5,8 +5,9 @@
 }
 
 header {
-    height: 100px;
-    border-bottom: 3px solid #6c6060;
+    height: 110px;
+    background: rgb(26,49,98);
+    background: linear-gradient(90deg, rgba(26,49,98,1) 0%, rgba(105,45,82,1) 50%, rgba(145,24,51,1) 100%);
 }
 
 nav {
@@ -31,7 +32,6 @@ footer {
 
 .img {
     float: left;
-    margin-right: 50px;
 }
 
 ul {

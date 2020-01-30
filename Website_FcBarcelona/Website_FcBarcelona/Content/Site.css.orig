@@ -1,12 +1,19 @@
-#container {
+﻿#container {
     min-width: 800px;
     width: 80%;
     margin: 0px auto;
 }
 
 header {
-    height: 100px;
+    height: 110px;
+<<<<<<< HEAD
     border-bottom: 3px solid #6c6060;
+    background: rgb(14,10,78);
+    background: linear-gradient(90deg, rgba(14,10,78,1) 0%, rgba(91,48,129,1) 50%, rgba(193,28,20,1) 100%);
+=======
+    background: rgb(26,49,98);
+    background: linear-gradient(90deg, rgba(26,49,98,1) 0%, rgba(105,45,82,1) 50%, rgba(145,24,51,1) 100%);
+>>>>>>> 370e52a13eaf5922ca38d03514d4ed49bbdada39
 }
 
 nav {
@@ -29,9 +36,8 @@ footer {
     padding: 5px 10px;
 }
 
-.img{
+.img {
     float: left;
-    margin-right: 50px;
 }
 
 ul {
@@ -40,21 +46,17 @@ ul {
     overflow: hidden;
     background-color: white;
 }
+
 .nav_level1 {
     padding: 34px 45px 36px 15px;
     float: left;
     font-size: 1.2em;
 }
+
 nav a {
-<<<<<<< HEAD
-   
+    color:black;
 }
-a:hover {
-    
-=======
-    color: #6c6060;
-    font-weight: bold;
-}
+
 a:hover {
     background-color: #9a1848;
     font-weight: bold;
@@ -64,19 +66,23 @@ a:hover {
     border: 2px solid black;
     border-radius: 15px;
     font-family: Arial;
->>>>>>> 0fe8849b8c277d8d9f70689148b9c07861ef4e5a
+    
 }
+
 .table {
     border: 1px solid black;
     background-color: #efeeee;
 }
-thead{
+
+thead {
     font-weight: bold;
     text-decoration: underline;
 }
+
 .nachname {
     font-weight: bold;
 }
+
 #first {
     padding: 34px 45px 36px 15px;
     background-color: #9a1848;

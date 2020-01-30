@@ -1,7 +1,50 @@
-﻿
+﻿@model List<Website_FCBarcelona.Models.Mannschaft>
+
+@using Website_FCBarcelona.Models
+
 @{
     ViewBag.Title = "Team";
 }
 
-<h2>Team</h2>
+
+@if (Model != null && Model.Count >= 1)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <td colspan="6">Personendaten</td>
+            </tr>
+            <tr>
+                <td>Foto</td>
+                <td>Vorname</td>
+                <td>Nachname</td>
+                <td>Geburtsdatum </td>
+                <td>Gehalt</td>
+                <td>Position</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Mannschaft p in Model)
+            {
+                <tr>
+                    <td><img src="~/Content/Images/Messi.jpg" width="40" /></td>
+                    <td>@p.Firstname</td>
+                    <td>@p.Lastname</td>
+                    <td>@p.Birthdate.ToLongDateString()</td>
+                    <td>@p.Salary</td>
+                    <td>@p.Position</td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="6">Tabellenfußbereich</td>
+            </tr>
+        </tfoot>
+    </table>
+}
+else
+{
+    <p>Keine Person gefunden!</p>
+}
 

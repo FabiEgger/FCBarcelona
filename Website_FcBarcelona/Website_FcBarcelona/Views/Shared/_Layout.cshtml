@@ -11,21 +11,18 @@
 <body>
 
     <div id="container">
-        <header>Kopfbereich
+        <header>
+            <div class="img">
+                <img src="~/Content/Images/Logo.jpg" width="130" />
+            </div>
         <nav>
             @Html.Partial("Navigation")
         </nav>
         </header>
         <main>
-
-            
-
             <content>
                 @RenderBody()
             </content>
-
-            <aside>Seitenbereich</aside>
-
         </main>
 
         <footer>

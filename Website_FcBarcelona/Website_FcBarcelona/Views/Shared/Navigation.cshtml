@@ -1,7 +1,9 @@
-﻿
-@{
-    ViewBag.Title = "Navigation";
-}
+﻿<ul>
+    <li class="nav_level1">@Html.ActionLink("Home", "index", "home")</li>
+    <li class="nav_level1">@Html.ActionLink("About", "about", "home")</li>
+    <li class="nav_level1">@Html.ActionLink("Kontakt", "contact", "home")</li>
+    <li class="nav_level1">@Html.ActionLink("Mannschaft", "team", "home")</li>
+    <li class="nav_level1" id="first" style="float:right">@Html.ActionLink("Login", "login", "user")</li>
+    <li class="nav_level1" style="float:right">@Html.ActionLink("Registration", "registration", "user")</li>
 
-<h2>Navigation</h2>
-
+</ul>

@@ -6,9 +6,8 @@
 
 header {
     height: 110px;
-    border-bottom: 3px solid #6c6060;
-    background: rgb(14,10,78);
-    background: linear-gradient(90deg, rgba(14,10,78,1) 0%, rgba(91,48,129,1) 50%, rgba(193,28,20,1) 100%);
+    background: rgb(26,49,98);
+    background: linear-gradient(90deg, rgba(26,49,98,1) 0%, rgba(105,45,82,1) 50%, rgba(145,24,51,1) 100%);
 }
 
 nav {

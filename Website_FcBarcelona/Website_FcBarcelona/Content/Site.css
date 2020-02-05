@@ -20,8 +20,6 @@ content {
     float: left;
     min-width: 500px;
     min-height: 800px;
-    background-color: #2A283D;
-    background-image: url("Images/CampNou.jpeg");
 }
 
 footer {
@@ -397,3 +395,24 @@ a {
             font-weight: bold;
             color: #009879;
         }
+
+/*Home-Site*/
+
+.fixed-bg1 {
+    background-image: url("Images/bg1.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.fixed-bg2 {
+    background-image: url("Images/bg2.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

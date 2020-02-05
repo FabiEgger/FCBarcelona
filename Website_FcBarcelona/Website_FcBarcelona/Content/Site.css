@@ -7,6 +7,7 @@
 header {
     height: 98px;
     background-color: #2A283D;
+    position: sticky;
 }
 
 #line {
@@ -18,7 +19,9 @@ content {
     width: 100%;
     float: left;
     min-width: 500px;
-    min-height: 500px;
+    min-height: 800px;
+    background-color: #2A283D;
+    background-image: url("Images/CampNou.jpeg");
 }
 
 footer {

@@ -1,0 +1,7 @@
+<<<<<<< HEAD
+﻿
+=======
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+>>>>>>> d2c7e8bb7edc29344a1001d89a946c3ba2818248

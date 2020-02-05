@@ -176,7 +176,7 @@
     <Content Include="Views\Shared\Navigation.cshtml" />
     <Content Include="Views\User\Login.cshtml" />
     <Content Include="Views\User\Registration.cshtml" />
-    <Content Include="Views\Home\Team.cshtml" />
+    <Content Include="Views\Home\Attack.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

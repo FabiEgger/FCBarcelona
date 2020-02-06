@@ -415,6 +415,14 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.unsichbares-Bild
+{
+    left: 0px;
+    top: 30px;
+    z-index: 1;
+}
+
 .wallpaper {
     background-image: url("Images/wallpaper.jpg");
     min-height: 500px;

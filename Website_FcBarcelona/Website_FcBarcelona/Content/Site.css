@@ -430,6 +430,7 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 5px;
 }
 
 /*about*/
@@ -443,7 +444,7 @@ a {
     color: #2A283D;
     font-size: 15px;
     float: left;
-    margin: 10px 15px 150px 10px;
+    margin: 10px 15px 15px 10px;
     font-weight: bold;
 }
 imgabout1{
@@ -459,7 +460,7 @@ imgabout1{
     color: #2A283D;
     font-size: 15px;
     float: right;
-    margin: 0px 15px 150px 10px;
+    margin: 0px 15px 15px 10px;
     font-weight: bold;
 }
 
@@ -482,4 +483,10 @@ imgabout2 {
 
 imgabout3 {
     float: right;
+}
+.hr {
+    border: 0;
+    width: 40%;
+    height: 3px;
+    background-color: #2A283D;
 }

@@ -144,6 +144,8 @@
     <Content Include="Content\Images\Setien.jpg" />
     <Content Include="Content\Images\Transparentes-Bild.png" />
     <Content Include="Content\Images\wallpaper.jpg" />
+    <Content Include="Content\Images\wallpaper2.jpg" />
+    <Content Include="Content\Images\wallpaper3.jpg" />
     <Content Include="Content\Images\Wappen.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />

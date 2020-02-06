@@ -423,8 +423,30 @@ a {
     z-index: 1;
 }
 
-.wallpaper {
+.wallpaper1 {
     background-image: url("Images/wallpaper.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5px;
+}
+
+
+.wallpaper2 {
+    background-image: url("Images/wallpaper2.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5px;
+}
+
+
+.wallpaper3 {
+    background-image: url("Images/wallpaper3.jpg");
     min-height: 300px;
     background-attachment: fixed;
     background-position: center;

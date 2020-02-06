@@ -399,7 +399,7 @@ a {
 
 .fixed-bg1 {
     background-image: url("Images/bg1.jpg");
-    min-height: 300px;
+    min-height: 350px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -409,7 +409,7 @@ a {
 
 .fixed-bg2 {
     background-image: url("Images/bg2.jpg");
-    min-height: 300px;
+    min-height: 350px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -425,7 +425,7 @@ a {
 
 .wallpaper1 {
     background-image: url("Images/wallpaper.jpg");
-    min-height: 300px;
+    min-height: 350px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -436,7 +436,7 @@ a {
 
 .wallpaper2 {
     background-image: url("Images/wallpaper2.jpg");
-    min-height: 300px;
+    min-height: 350px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -447,7 +447,7 @@ a {
 
 .wallpaper3 {
     background-image: url("Images/wallpaper3.jpg");
-    min-height: 300px;
+    min-height: 350px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

@@ -1,17 +1,43 @@
-﻿@{
-    ViewBag.Title = "Contact";
-}
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+﻿<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div class="slidershow middle">
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
+        <div class="slides">
+            <input type="radio" name"r" id="r1" checked />
+            <input type="radio" name"r" id="r2" />
+            <input type="radio" name"r" id="r3" />
+            <input type="radio" name"r" id="r4" />
+            <input type="radio" name"r" id="r5" />
+            <div class="slide s1">
+                <img src="~/Content/Images/wallpaper.jpg" alt="" />
+            </div>
+            <div class="slide">
+                <img src="~/Content/Images/wallpaper2.jpg" alt="" />
+            </div>
+            <div class="slide">
+                <img src="~/Content/Images/wallpaper3.jpg" alt="" />
+            </div>
+            <div class="slide">
+                <img src="~/Content/Images/BG1.jpg" alt="" />
+            </div>
+            <div class="slide">
+                <img src="~/Content/Images/BG2.jpg" alt="" />
+            </div>
+        </div>
 
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+        <div class="navigationSlide">
+            <label for="r1" class="barSlide"></label>
+            <label for="r2" class="barSlide"></label>
+            <label for="r3" class="barSlide"></label>
+            <label for="r4" class="barSlide"></label>
+            <label for="r5" class="barSlide"></label>
+        </div>
+    </div>
+
+</body>
+</html>
+

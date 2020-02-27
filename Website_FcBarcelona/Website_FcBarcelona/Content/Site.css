@@ -549,7 +549,7 @@ imgabout3 {
         background: #fff;
     }
 
-input {
+input[name="r"] {
     position: absolute;
     visibility: hidden;
 }

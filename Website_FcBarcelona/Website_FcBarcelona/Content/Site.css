@@ -512,6 +512,13 @@ imgabout3 {
     height: 3px;
     background-color: #2A283D;
 }
+.hr1 {
+    border: 0;
+    width: 40%;
+    height: 3px;
+    background-color: #2A283D;
+    margin-top: 540px;
+}
 
 /*slides*/
 
@@ -525,7 +532,7 @@ imgabout3 {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,25%);
 }
 
 .navigationSlide {
